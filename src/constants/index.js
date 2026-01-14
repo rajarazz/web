@@ -19,11 +19,14 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  shoe,
+  res1,
+  res2,
+  res3,
 } from "../assets";
+
+
 
 export const navLinks = [
   {
@@ -122,10 +125,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2022 - April 2022",
     points: [
-      "Developed the official company website using React and Vite.",
       "Implemented responsive layouts and reusable components.",
-      "Worked closely with design requirements to match business branding.",
-      "Optimized UI performance and ensured cross-browser compatibility.",
+      
     ],
   },
   {
@@ -136,9 +137,7 @@ const experiences = [
     date: "Jan 2023 - Feb 2023",
     points: [
       "Built multiple React-based projects to strengthen frontend fundamentals.",
-      "Implemented forms, UI components, and basic API integrations.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Focused on clean code structure and maintainable components.",
+      
     ],
   },
   {
@@ -149,9 +148,7 @@ const experiences = [
     //date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
@@ -162,9 +159,7 @@ const experiences = [
     date: "Dec 10 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
 ];
@@ -176,7 +171,7 @@ const testimonials = [
     name: " Team Member",
     //designation: "CFO",
     company: "Gifting Delight Pvt. Ltd.",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    //image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
@@ -184,7 +179,7 @@ const testimonials = [
     name: " Mentor",
     //designation: "COO",
     company: "COllege",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    //image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -192,15 +187,15 @@ const testimonials = [
     name: "Reviewer",
     designation: "Project Evaluation Panel",
     //company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    //image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Shoe Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "online store",
     tags: [
       {
         name: "react",
@@ -215,13 +210,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shoe,
+    source_code_link: "https://rajarazz.github.io/Project1/",
   },
   {
-    name: "Job IT",
+    name: "Restaurant 1",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A digital presence",
     tags: [
       {
         name: "react",
@@ -236,13 +231,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: res1,
+    source_code_link: "https://restaurantwebxraj3.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Restaurant 2",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "web 2",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +252,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: res2,
+    source_code_link: "https://restaurantwebxraj2.netlify.app/",
+  },
+
+  {
+    name: "Restaurant 3",
+    description:
+    "web 2",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: res3,
+    source_code_link: "https://restaurantwebxraj.netlify.app/",
   },
 ];
 

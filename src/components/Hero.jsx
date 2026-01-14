@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I build responsive web interfaces, <br className='sm:block hidden' />
-            modern frontend applications, and real-world React projects
+            modern frontend applications, and real-world projects
 
 
           </p>
